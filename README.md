@@ -8,7 +8,7 @@
 
 ###
 
-<p align="left">Currently...<br>- building @ RBC<br>- studying CS @ queensu</p>
+<p align="left">Currently...<br>- interning @ RBC<br>- studying CS <br>- building vibecheck @ queensu</p>
 
 ###
 
