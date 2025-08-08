@@ -57,4 +57,8 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=s8phia&radius=16&theme=dracula&area=true&order=5" height="300" alt="activity-graph graph"  />
 </div>
 
+<div>
+  ![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=7l21wl72h95im0luonzzt2px8)
+</div>
+
 ###
