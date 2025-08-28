@@ -8,7 +8,7 @@
 
 ###
 
-<p align="left">Currently...<br>- interning @ RBC<br>- studying CS @ queensu<br>- building vibecheck<br><br>I'm also...<br>- getting good @ cooking<br>- probably @ the gym<br>- leetcoding</p>
+<p align="left">Currently...<br>- studying CS @ queensu<br>- building <br><br>I'm also...<br>- getting good @ cooking<br>- probably @ the gym<br>- leetcoding</p>
 
 ###
 
