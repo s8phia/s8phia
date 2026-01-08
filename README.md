@@ -1,7 +1,3 @@
-<div align="left">
-  <img height="200" src="https://camo.githubusercontent.com/1c423e60405964edc6d0f8b49bb10e69f09bd080a101aef3b9aa2f1eb4ab9642/68747470733a2f2f6d65646961312e74656e6f722e636f6d2f6d2f4e7759357070784c735f6f41414141642f6b697474656e2d6b6579626f2e676966"  />
-</div>
-
 ###
 
 <h3 align="left">Hi, I'm Sophia 🥟</h3>
