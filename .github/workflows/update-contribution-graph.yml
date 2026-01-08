@@ -1,0 +1,54 @@
+name: Update Pacman Contribution Graph
+
+on:
+  schedule:
+    # Runs at 12:00 AM UTC every day
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create output directory
+        run: mkdir -p output
+
+      - name: Generate pacman-contribution-graph-dark.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: s8phia
+          theme: dark
+
+      - name: Generate pacman-contribution-graph.svg (light theme)
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: s8phia
+          theme: light
+          output_file_name: pacman-contribution-graph.svg
+
+      - name: Move generated files to output directory
+        run: |
+          if [ -f pacman-contribution-graph-dark.svg ]; then
+            mv pacman-contribution-graph-dark.svg output/pacman-contribution-graph-dark.svg
+          fi
+          if [ -f pacman-contribution-graph.svg ]; then
+            mv pacman-contribution-graph.svg output/pacman-contribution-graph.svg
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add output/
+          git diff --staged --quiet || git commit -m "Update pacman contribution graph [skip ci]"
+          git push
