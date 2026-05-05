@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">Currently...<br>- studying cs @ queensu<br>- learning and building ML applications and systems<br>- practicing data structures and algorithms<br><br>I'm also...<br>- getting good @ cooking<br>- probably @ the gym<br>- reading "Before The Coffee Gets Cold" by Toshikazu Kawaguchi</p>
+<p align="left">Currently...<br>- studying cs @ queensu<br>- learning and building ML applications and systems<br>- practicing data structures and algorithms<br><br>I'm also...<br>- getting good @ cooking<br>- probably @ the gym
 
 ###
 
